@@ -1,6 +1,7 @@
 <?xml version='2.0' encoding='utf-8'?>
-<widget id="com.tropicanfm.radio" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.tropicanfm.radio" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Tropican FM</name>
+   
     <description>
         App de la radio TropicanFM tropicanfm.com.
     </description>
