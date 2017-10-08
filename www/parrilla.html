@@ -1,0 +1,21 @@
+<script>
+$(document).ready(function(){
+	$('#your-tweets').append('<li>Loading Sam Croft\'s tweets');		
+	$.jsonp({
+		url: 'http://lafabulosafm.com/api/get_post/?id=174',
+		callbackParameter: 'callback',
+		timeout: 25000,
+		success: function(data, status) {
+			//$('#your-tweets').append('<li>The feed loads fine');
+			$('#your-tweets').empty();
+			$.each(data, function(i,item){ 
+				var tweet = item.text;
+				$('#your-tweets').append('<li>'+tweet);
+			});
+		},
+		error: function(){
+			$('#your-tweets').append('<li>There was an error loading the feed');
+		}
+	});
+});
+</script>

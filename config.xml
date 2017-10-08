@@ -1,0 +1,167 @@
+<?xml version='2.0' encoding='utf-8'?>
+<widget id="com.tropicanfm.radio" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Tropican FM</name>
+    <description>
+        App de la radio TropicanFM tropicanfm.com.
+    </description>
+    <author email="seamusgroup@hotmail.com" href="http://cordova.io">
+        Seamus group 
+    </author>
+
+	
+<icon src="fabulosaICONOapp.png" />
+
+	
+	<platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+       <!--03/03 1830 freddy sarango cambiar extension a png-->
+    <splash src="www/res/splash/bg.png" density="land-hdpi"/>
+    <splash src="www/res/splash/bg.png" density="land-ldpi"/>
+    <splash src="www/res/splash/bg.png" density="land-mdpi"/>
+    <splash src="www/res/splash/bg.png" density="land-xhdpi"/>
+    <splash src="www/res/splash/bg.png" density="port-hdpi"/>
+    <splash src="www/res/splash/bg.png" density="port-ldpi"/>
+    <splash src="www/res/splash/bg.png" density="port-mdpi"/>
+    <splash src="www/res/splash/bg.png" density="port-xhdpi"/>
+</platform>
+
+<platform name="ios">
+    <!-- images are determined by width and height. The following are supported
+    cambiado de jpg a png @fs
+     -->
+
+    <splash src="www/res/splash/bg.png" width="320" height="480"/>
+    <splash src="www/res/splash/bg.png" width="640" height="960"/>
+    <splash src="www/res/splash/bg.png" width="1136" height="640"/>
+    <splash src="www/res/splash/bg.png" width="768" height="1024"/>
+    <splash src="www/res/splash/bg.png" width="1536" height="2048"/>
+    <splash src="www/res/splash/bg.png" width="1024" height="768"/>
+    <splash src="www/res/splash/bg.png" width="2048" height="1536"/>
+    <splash src="www/res/splash/bg.png" width="640" height="1136"/>
+    <splash src="www/res/splash/bg.png" width="1136" height="640"/>
+    <splash src="www/res/splash/bg.png" width="750" height="1334"/>
+    <splash src="www/res/splash/bg.png" width="1242" height="2208"/>
+    <splash src="www/res/splash/bg.png" width="2208" height="1242"/>
+</platform>
+
+<preference name="SplashScreen" value="screen" />
+<preference name="SplashScreenDelay" value="8000" />
+
+	<allow-navigation href="*" />
+     <platform name="android">
+              <icon src="www/res/icon/android/fabulosaICONOapp36.png" density="ldpi" />
+              <icon src="www/res/icon/android/fabulosaICONOapp48.png" density="mdpi" />
+              <icon src="www/res/icon/android/fabulosaICONOapp72.png" density="hdpi" />
+              <icon src="www/res/icon/android/fabulosaICONOapp96.png" density="xhdpi" />
+     </platform>
+
+
+    
+    <platform name="ios">
+              <!-- iOS 8.0+ -->
+              <!-- iPhone 6 Plus  -->
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="180" height="180" />
+              <!-- iOS 7.0+ -->
+              <!-- iPhone / iPod Touch  -->
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="60" height="60" />
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="120" height="120" />
+              <!-- iPad -->
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="76" height="76" />
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="152" height="152" />
+              <!-- iOS 6.1 -->
+              <!-- Spotlight Icon -->
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="40" height="40" />
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="80" height="80" />
+              <!-- iPhone / iPod Touch -->
+              <icon src="www/res/icon/ios/fabulosaICONOapp57.png" width="57" height="57" />
+              <icon src="www/res/icon/ios/fabulosaICONOapp57.png" width="114" height="114" />
+              <!-- iPad -->
+              <icon src="www/res/icon/ios/fabulosaICONOapp72.png" width="72" height="72" />
+              <icon src="www/res/icon/ios/fabulosaICONOapp72.png" width="144" height="144" />
+              <!-- iPhone Spotlight and Settings Icon -->
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="29" height="29" />
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="58" height="58" />
+              <!-- iPad Spotlight and Settings Icon -->
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="50" height="50" />
+              <icon src="www/res/icon/ios/fabulosaICONOapp.png" width="100" height="100" />
+     </platform>
+    <content src="index.html" />
+    <access origin="*" />
+
+<!--
+  <gap:plugin name="org.apache.cordova.inappbrowser"/>
+  <gap:plugin name="org.apache.cordova.splashscreen" />
+  <gap:plugin name="de.appplant.cordova.plugin.background-mode" />
+  <plugin name="it.witek.cordova.plugin.background-mode" spec="0.6.3" source="pgb" />
+  <gap:plugin name="de.appplant.cordova.plugin.background-mode" version="0.6.3" />
+-->
+
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="webviewbounce" value="false" /> 
+
+<!--
+     <feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+</feature>
+
+<feature name="SplashScreen">
+    <param name="android-package" value="org.apache.cordova.SplashScreen" />
+</feature>
+
+
+-->
+<!--cambiado nombre-->
+  <!--
+
+<gap:plugin name="cordova-plugin-inappbrowser" source="pgb" />
+<gap:plugin name="cordova-plugin-splashscreen" source="pgb" />
+<gap:plugin name="cordova-plugin-file-transfer" source="npm" version="1.5.0"/>
+
+  -->
+
+
+
+<!--
+    <feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+</feature>
+
+<feature name="SplashScreen">
+    <param name="android-package" value="org.apache.cordova.SplashScreen" />
+</feature>
+
+-->
+
+
+<!--agregado 0403 estaba comentado-->
+<gap:plugin name="cordova-plugin-device" source="npm" />
+<gap:plugin name="cordova-plugin-email-composer" source="npm" />
+<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+<gap:plugin name="cordova-plugin-file" source="npm" />
+<gap:plugin name="cordova-plugin-network-information" source="npm" />
+<gap:plugin name="cordova-plugin-statusbar" source="npm" />
+
+
+
+
+
+<!--estaba comentado-->
+<feature name="BackgroundMode" >
+                <param name="android-package"
+                      value="de.appplant.cordova.plugin.background.BackgroundMode"/>
+            </feature>
+          
+
+
+<!--estaba comentado-->
+<gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
+    <array>
+        <string>audio</string>
+    </array>
+</gap:config-file> 
+
+
+</widget>

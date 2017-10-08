@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>TropicanFM</title>  
+
+  <!-- All our CSS -->
+  <link rel="stylesheet" href="lib/onsen/css/onsenui.css">    
+  <link rel="stylesheet" href="css/onsen-css-components.css"> 
+  <link rel="stylesheet" href="css/plugins.css"/>
+  <link rel="stylesheet" href="css/roots.css"/>
+  <link rel="stylesheet" href="css/app.css"/>
+
+  <!-- CSS for the Radio -->
+  <link rel="stylesheet" href="css/radio.css"/>
+  
+  <script src="lib/onsen/js/angular/angular.js"></script>    
+  <script src="lib/onsen/js/angular/angular-touch.js"></script> 
+  <script src="lib/onsen/js/onsenui.js"></script>    
+  <script src="js/plugins.js"></script>  
+  <script src="cordova.js"></script>
+  <script src="js/app.js"></script>  
+      
+</head>
+
+<body ng-controller="networkController">    
+
+  <ons-tabbar>
+    <ons-tab page="radio.html" active="true">
+      <ons-icon icon="ion-radio-waves" style="color:#e0a62f"></ons-icon>
+      <span class="tab-label">Radio</span>
+    </ons-tab>
+    <ons-tab page="latest.html">
+      <ons-icon icon="ion-android-globe" style="color:#e0a62f"></ons-icon>
+      <span class="tab-label">News</span>
+    </ons-tab> 
+            <ons-tab page="chat.html">
+      <ons-icon icon="wechat" style="color: #e0a62f" ></ons-icon>
+      <span class="tab-label">Chat</span>
+    </ons-tab>
+                <ons-tab page="plugins.html">
+      <ons-icon icon="fa fa-external-link" style="color: #e0a62f" ></ons-icon>
+      <span class="tab-label"></span>
+    </ons-tab>
+
+
+
+
+        
+  </ons-tabbar>
+
+  <!-- Insert the modal in your index.html -->
+  <!-- Change the message to anything you want, this message will be if the user doesn't have any network connection -->
+  <ons-modal var="offlineMessage">
+    No se puede conectar a Internet.<br> 
+  </ons-modal>
+
+</body>
+
+</html>
