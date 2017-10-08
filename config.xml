@@ -1,7 +1,6 @@
 <?xml version='2.0' encoding='utf-8'?>
-<widget id="com.tropicanfm.radio" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.tropicanfm.radio" version="0.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Tropican FM</name>
-   
     <description>
         App de la radio TropicanFM tropicanfm.com.
     </description>
@@ -45,10 +44,8 @@
     <splash src="www/res/splash/bg.png" width="2208" height="1242"/>
 </platform>
 
-<!--cambiando screen por res/splash/bg.png-->
-<preference name="SplashScreen" value="res/splash/bg.png" />
+<preference name="SplashScreen" value="screen" />
 <preference name="SplashScreenDelay" value="8000" />
-<gap:splash src="res/splash/bg.png" />
 
 	<allow-navigation href="*" />
      <platform name="android">
@@ -125,39 +122,9 @@
 
   -->
 
- <plugin name="org.apache.cordova.device"  source="npm" />
- <plugin name="org.apache.cordova.network-information"  source="npm" />
-  <gap:plugin name="org.apache.cordova.core.inappbrowser" />
-<gap:plugin name="cordova-plugin-splashscreen"  source="npm" />
-<plugin name="de.appplant.cordova.plugin.background-mode"  source="pgb" />
-<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
 
-<gap:plugin name="cordova-plugin-statusbar"  source="npm" />
 
-<gap:plugin name="cordova-plugin-email-composer" source="npm" />
-
-<plugin name="cordova-plugin-file-transfer" source="npm"/>
-<plugin name="org.apache.cordova.file" source="pgb" />
-<plugin name="com.indigoway.cordova.whitelist.whitelistplugin"  source="pgb" />
-<!--cambiado nombre y source
-version inappbrowser 1.1.0 xq la 1.2 da error
-
-<gap:plugin name="cordova-plugin-device" source="npm" />
-<gap:plugin name="cordova-plugin-inappbrowser" version="1.1.0"/>
-<gap:plugin name="cordova-plugin-splashscreen" source="npm" />
-<gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
-<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
-<gap:plugin name="de.appplant.cordova.plugin.background-mode" version="0.6.4" />
-<gap:plugin name="cordova-plugin-statusbar" source="npm" />
-<gap:plugin name="cordova-plugin-file" source="npm" />
-<gap:plugin name="cordova-plugin-email-composer" version="0.8.3" source="npm" />
-<gap:plugin name="cordova-plugin-network-information" source="npm" />
-
--->
- 
 <!--
-<plugin name="org.apache.cordova.device" spec="0.2.12" source="pgb" />
-
     <feature name="InAppBrowser">
     <param name="android-package" value="org.apache.cordova.InAppBrowser" />
 </feature>
@@ -168,7 +135,8 @@ version inappbrowser 1.1.0 xq la 1.2 da error
 
 -->
 
-<!--agregado 0403
+
+<!--agregado 0403 estaba comentado-->
 <gap:plugin name="cordova-plugin-device" source="npm" />
 <gap:plugin name="cordova-plugin-email-composer" source="npm" />
 <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
@@ -177,24 +145,23 @@ version inappbrowser 1.1.0 xq la 1.2 da error
 <gap:plugin name="cordova-plugin-statusbar" source="npm" />
 
 
--->
 
 
-<!--
+
+<!--estaba comentado-->
 <feature name="BackgroundMode" >
                 <param name="android-package"
                       value="de.appplant.cordova.plugin.background.BackgroundMode"/>
             </feature>
-            *******************
+          
 
 
-
+<!--estaba comentado-->
 <gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
     <array>
         <string>audio</string>
     </array>
 </gap:config-file> 
--->
 
 
 </widget>
