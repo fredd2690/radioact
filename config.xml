@@ -96,7 +96,7 @@
 <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
 <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
 <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
-<gap:plugin name="de.appplant.cordova.plugin.background-mode"  />
+<plugin name="de.appplant.cordova.plugin.background-mode" source="pgb" />
 <gap:plugin name="cordova-plugin-statusbar" source="npm" />
 <gap:plugin name="cordova-plugin-file" source="npm" />
 <gap:plugin name="cordova-plugin-email-composer" source="npm" />
