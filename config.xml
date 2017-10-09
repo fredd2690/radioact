@@ -2,9 +2,9 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.phonegap.example"
-    versionCode = "10"
+    versionCode = "11"
     version     = "1.0.0" >
-    <name>Tropican FM</name>
+    <name>Tropican F</name>
     <description>
         App de la radio TropicanFM tropicanfm.com.
     </description>
@@ -126,6 +126,26 @@
 
   -->
 
+ <plugin name="org.apache.cordova.device" source="npm" />
+ <plugin name="org.apache.cordova.network-information"  source="npm" />
+  <gap:plugin name="org.apache.cordova.core.inappbrowser" />
+<gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+<plugin name="de.appplant.cordova.plugin.background-mode" source="pgb" />
+<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+
+<gap:plugin name="cordova-plugin-statusbar"  source="npm" />
+
+<gap:plugin name="cordova-plugin-email-composer" source="npm" />
+
+<plugin name="cordova-plugin-file-transfer" source="npm"/>
+<plugin name="org.apache.cordova.file"  source="pgb" />
+<plugin name="com.indigoway.cordova.whitelist.whitelistplugin" source="pgb" />
+
+
+
+
+
+
 
 
 <!--
@@ -140,7 +160,7 @@
 -->
 
 
-<!--agregado 0403 estaba comentado-->
+<!--agregado 0403 estaba comentado
 <gap:plugin name="cordova-plugin-device" source="npm" />
 <gap:plugin name="cordova-plugin-email-composer" source="npm" />
 <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
@@ -152,13 +172,13 @@
 
 
 
-<!--estaba comentado-->
+<!--estaba comentado
 <feature name="BackgroundMode" >
                 <param name="android-package"
                       value="de.appplant.cordova.plugin.background.BackgroundMode"/>
             </feature>
           
-
+-->
 
 <!--estaba comentado-->
 <gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
