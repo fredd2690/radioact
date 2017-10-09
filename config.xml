@@ -90,9 +90,9 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="webviewbounce" value="false" /> 
-    
+
 <gap:plugin name="cordova-plugin-device" source="npm" />
-<gap:plugin name="org.apache.cordova.core.inappbrowser" />
+<plugin name="org.apache.cordova.inappbrowser"  source="pgb" />
 <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
 <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
 <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
