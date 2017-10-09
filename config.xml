@@ -180,12 +180,12 @@
           
 -->
 
-<!--estaba comentado-->
+<!--estaba comentado
 <gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
     <array>
         <string>audio</string>
     </array>
-</gap:config-file> 
+</gap:config-file> -->
 
 
 </widget>
