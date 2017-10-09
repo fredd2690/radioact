@@ -4,7 +4,7 @@
     id          = "com.phonegap.example"
     versionCode = "11"
     version     = "1.0.0">
-    <name>Tropican F</name>
+    <name>Tropican FM</name>
     <description>
         App de la radio TropicanFM tropicanfm.com.
     </description>
@@ -50,6 +50,7 @@
 
 <preference name="SplashScreen" value="screen" />
 <preference name="SplashScreenDelay" value="8000" />
+<gap:splash src="res/splash/bg.png" />
 
 	<allow-navigation href="*" />
      <platform name="android">
