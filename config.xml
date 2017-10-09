@@ -105,7 +105,8 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="webviewbounce" value="false" /> 
-
+<preference name='phonegap-version' value='cli-7.0.1' />
+<preference name='pgb-builder-version' value='1' />
 <!--
      <feature name="InAppBrowser">
     <param name="android-package" value="org.apache.cordova.InAppBrowser" />
