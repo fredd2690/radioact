@@ -4,7 +4,7 @@
     id          = "com.phonegap.example"
     versionCode = "11"
     version     = "1.0.0">
-    <name>Tropican FM2</name>
+    <name>Tropican FM3</name>
     <description>
         App de la radio TropicanFM tropicanfm.com.
     </description>
@@ -96,7 +96,7 @@
 <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
 <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
 <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
-<plugin name="cordova-plugin-background-mode" />
+<plugin spec="https://github.com/katzer/cordova-plugin-background-mode.git" source="git"/>
 <gap:plugin name="cordova-plugin-statusbar" source="npm" />
 <gap:plugin name="cordova-plugin-file" source="npm" />
 <gap:plugin name="cordova-plugin-email-composer" source="npm" />
