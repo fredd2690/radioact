@@ -92,11 +92,11 @@
     <preference name="webviewbounce" value="false" /> 
 
 <gap:plugin name="cordova-plugin-device" source="npm" />
-<plugin name="org.apache.cordova.inappbrowser"  source="pgb" />
+<plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
 <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
 <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
 <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
-<plugin name="de.appplant.cordova.plugin.background-mode" source="pgb" />
+<plugin name="de.appplant.cordova.plugin.background-mode" source="npm" />
 <gap:plugin name="cordova-plugin-statusbar" source="npm" />
 <gap:plugin name="cordova-plugin-file" source="npm" />
 <gap:plugin name="cordova-plugin-email-composer" source="npm" />
