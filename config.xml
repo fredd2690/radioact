@@ -84,6 +84,8 @@
      </platform>
     <content src="index.html" />
     <access origin="*" />
+      <access origin="http://tropicanfm.com" />
+       <access origin="https://tropicanfm.com" />
 
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
@@ -101,5 +103,5 @@
 <gap:plugin name="cordova-plugin-file" source="npm" />
 <gap:plugin name="cordova-plugin-email-composer" source="npm" />
 <gap:plugin name="cordova-plugin-network-information" source="npm" />
-
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 </widget>
