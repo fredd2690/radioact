@@ -90,6 +90,16 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="webviewbounce" value="false" /> 
-
+    
+<gap:plugin name="cordova-plugin-device" source="npm" />
+<gap:plugin name="cordova-plugin-inappbrowser" />
+<gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+<gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
+<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+<gap:plugin name="de.appplant.cordova.plugin.background-mode"  />
+<gap:plugin name="cordova-plugin-statusbar" source="npm" />
+<gap:plugin name="cordova-plugin-file" source="npm" />
+<gap:plugin name="cordova-plugin-email-composer" source="npm" />
+<gap:plugin name="cordova-plugin-network-information" source="npm" />
 
 </widget>
